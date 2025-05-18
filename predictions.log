@@ -1,0 +1,55 @@
+2025-05-18 16:27:44,486 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 16:27:44,525 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-18 16:27:44,526 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 16:27:44,527 - INFO -  * Restarting with stat
+2025-05-18 16:27:45,571 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 16:27:45,599 - WARNING -  * Debugger is active!
+2025-05-18 16:27:45,603 - INFO -  * Debugger PIN: 726-877-102
+2025-05-18 16:27:45,999 - INFO - 127.0.0.1 - - [18/May/2025 16:27:45] "GET / HTTP/1.1" 200 -
+2025-05-18 16:27:48,585 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 16:27:48,612 - WARNING -  * Debugger is active!
+2025-05-18 16:27:48,616 - INFO -  * Debugger PIN: 726-877-102
+2025-05-18 16:27:53,789 - INFO - Predykcja: Nowotwór z³oœliwy, Score: 0.9999
+2025-05-18 16:27:53,790 - INFO - 127.0.0.1 - - [18/May/2025 16:27:53] "POST / HTTP/1.1" 200 -
+2025-05-18 16:27:58,603 - INFO - Predykcja: Zdrowe p³uca, Score: 0.4494
+2025-05-18 16:27:58,604 - INFO - 127.0.0.1 - - [18/May/2025 16:27:58] "POST / HTTP/1.1" 200 -
+2025-05-18 16:28:06,922 - INFO - Predykcja: Zdrowe p³uca, Score: 0.4182
+2025-05-18 16:28:06,922 - INFO - 127.0.0.1 - - [18/May/2025 16:28:06] "POST / HTTP/1.1" 200 -
+2025-05-18 16:28:31,768 - INFO - 127.0.0.1 - - [18/May/2025 16:28:31] "[33mGET /logs/ HTTP/1.1[0m" 404 -
+2025-05-18 16:30:11,138 - INFO -  * Detected change in 'C:\\Users\\Dell\\Desktop\\mobilenet_flask_app\\app.py', reloading
+2025-05-18 16:30:13,810 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 16:30:13,847 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-18 16:30:13,847 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 16:30:13,848 - INFO -  * Restarting with stat
+2025-05-18 16:30:15,135 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 16:30:15,166 - WARNING -  * Debugger is active!
+2025-05-18 16:30:15,171 - INFO -  * Debugger PIN: 726-877-102
+2025-05-18 16:30:15,526 - INFO - 127.0.0.1 - - [18/May/2025 16:30:15] "GET /logs/ HTTP/1.1" 200 -
+2025-05-18 16:30:17,763 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 16:30:17,789 - WARNING -  * Debugger is active!
+2025-05-18 16:30:17,792 - INFO -  * Debugger PIN: 726-877-102
+2025-05-18 16:30:23,575 - INFO - Predykcja: Zdrowe p³uca, Score: 0.4182
+2025-05-18 16:30:23,579 - INFO - 127.0.0.1 - - [18/May/2025 16:30:23] "POST / HTTP/1.1" 200 -
+2025-05-18 16:30:24,403 - INFO - 127.0.0.1 - - [18/May/2025 16:30:24] "GET / HTTP/1.1" 200 -
+2025-05-18 16:30:46,356 - INFO -  * Detected change in 'C:\\Users\\Dell\\Desktop\\mobilenet_flask_app\\app.py', reloading
+2025-05-18 16:30:49,839 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 16:30:49,871 - WARNING -  * Debugger is active!
+2025-05-18 16:30:49,871 - INFO -  * Debugger PIN: 726-877-102
+2025-05-18 16:31:32,200 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 16:31:32,233 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-18 16:31:32,233 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 16:31:32,234 - INFO -  * Restarting with stat
+2025-05-18 16:31:35,142 - INFO - 127.0.0.1 - - [18/May/2025 16:31:35] "GET / HTTP/1.1" 200 -
+2025-05-18 16:31:35,327 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 16:31:35,384 - WARNING -  * Debugger is active!
+2025-05-18 16:31:35,388 - INFO -  * Debugger PIN: 726-877-102
+2025-05-18 16:31:48,610 - INFO - Predykcja: Nowotwór z³oœliwy, Score: 0.9999
+2025-05-18 16:31:48,610 - INFO - 127.0.0.1 - - [18/May/2025 16:31:48] "POST / HTTP/1.1" 200 -
+2025-05-18 16:31:54,215 - INFO - 127.0.0.1 - - [18/May/2025 16:31:54] "GET /logs/ HTTP/1.1" 200 -
+2025-05-18 16:32:09,330 - INFO - 127.0.0.1 - - [18/May/2025 16:32:09] "GET / HTTP/1.1" 200 -
+2025-05-18 16:33:23,154 - INFO - Predykcja: Nowotwór z³oœliwy, Score: 0.9999
+2025-05-18 16:33:23,154 - INFO - 127.0.0.1 - - [18/May/2025 16:33:23] "POST / HTTP/1.1" 200 -
+2025-05-18 16:33:46,137 - INFO - 127.0.0.1 - - [18/May/2025 16:33:46] "GET /logs/ HTTP/1.1" 200 -

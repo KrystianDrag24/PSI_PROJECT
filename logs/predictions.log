@@ -1,0 +1,36 @@
+2025-05-18 16:24:33,312 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 16:24:33,349 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-18 16:24:33,349 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 16:24:33,350 - INFO -  * Restarting with stat
+2025-05-18 16:24:34,053 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 16:24:34,081 - WARNING -  * Debugger is active!
+2025-05-18 16:24:34,084 - INFO -  * Debugger PIN: 726-877-102
+2025-05-18 16:24:35,799 - INFO - 127.0.0.1 - - [18/May/2025 16:24:35] "GET / HTTP/1.1" 200 -
+2025-05-18 16:24:36,750 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 16:24:36,775 - WARNING -  * Debugger is active!
+2025-05-18 16:24:36,777 - INFO -  * Debugger PIN: 726-877-102
+2025-05-18 16:24:38,623 - INFO - 127.0.0.1 - - [18/May/2025 16:24:38] "[33mGET /logs/ HTTP/1.1[0m" 404 -
+2025-05-18 16:25:09,302 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 16:25:09,343 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-18 16:25:09,343 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 16:25:09,345 - INFO -  * Restarting with stat
+2025-05-18 16:25:12,182 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 16:25:12,221 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-18 16:25:12,221 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 16:25:12,222 - INFO -  * Restarting with stat
+2025-05-18 16:25:12,811 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 16:25:12,837 - WARNING -  * Debugger is active!
+2025-05-18 16:25:12,840 - INFO -  * Debugger PIN: 726-877-102
+2025-05-18 16:25:13,590 - INFO - 127.0.0.1 - - [18/May/2025 16:25:13] "[33mGET /logs/ HTTP/1.1[0m" 404 -
+2025-05-18 16:25:15,583 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 16:25:15,609 - WARNING -  * Debugger is active!
+2025-05-18 16:25:15,612 - INFO -  * Debugger PIN: 726-877-102
+2025-05-18 16:25:17,308 - INFO - 127.0.0.1 - - [18/May/2025 16:25:17] "GET / HTTP/1.1" 200 -
+2025-05-18 16:25:19,749 - INFO - 127.0.0.1 - - [18/May/2025 16:25:19] "[33mGET /logs/ HTTP/1.1[0m" 404 -
+2025-05-18 16:27:41,716 - INFO -  * Detected change in 'C:\\Users\\Dell\\Desktop\\mobilenet_flask_app\\app.py', reloading
+2025-05-18 16:27:42,156 - INFO -  * Restarting with stat
+2025-05-18 16:30:11,581 - INFO -  * Restarting with stat
+2025-05-18 16:30:46,756 - INFO -  * Restarting with stat

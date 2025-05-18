@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Klasyfikacja obrazów</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to right, #e0eafc, #cfdef3);
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        form {
+            background: white;
+            padding: 30px 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+
+        input[type="file"] {
+            margin-bottom: 20px;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 1rem;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .result {
+            margin-top: 30px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Klasyfikacja obrazów - wykrywanie nowotworów płuc</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*" required><br>
+        <input type="submit" value="Wyślij obraz">
+    </form>
+
+    {% if prediction %}
+        <div class="result">
+            <p><strong>Wynik predykcji:</strong> {{ prediction }}</p>
+            {% if score is not none %}
+                <p><strong>Wartość modelu:</strong> {{ "%.4f"|format(score) }}</p>
+            {% endif %}
+        </div>
+    {% endif %}
+</body>
+</html>
