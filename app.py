@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 # Konfiguracja logowania – plik w tym samym katalogu
 logging.basicConfig(
-    filename='predictions.log',
+    filename='logs/predictions.log',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
@@ -56,7 +56,7 @@ def index():
 @app.route('/logs/')
 def view_logs():
     try:
-        with open('predictions.log', 'r') as f:
+        with open('logs/predictions.log', 'r') as f:
             log_content = f.read().replace('\n', '<br>')
         return f"<h2>Logi predykcji:</h2><p>{log_content}</p>"
     except Exception as e:

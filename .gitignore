@@ -1,6 +1,12 @@
+# Ignoruj pliki środowiska IDE
+.idea/
+.vscode/
+
+# Ignoruj cache Pythona
 __pycache__/
 *.pyc
 *.pyo
+
+# Ignoruj logi
 *.log
-.venv/
-env/
+
